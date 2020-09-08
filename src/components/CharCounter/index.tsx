@@ -23,7 +23,7 @@ const CharCounter: React.FC<CharCounter> = ({ counter }) => {
     setNumber(counter);
 
     setRingStyle({
-      stroke: counter < 160 ? '#00cc00' : '#c53030',
+      stroke: counter < 160 ? '#00ACEE' : '#c53030',
       strokeDasharray: `${colored} ${gray}`,
     });
   }, [colored, counter, gray]);
